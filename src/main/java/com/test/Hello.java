@@ -5,7 +5,7 @@ public class Hello {
 //       System.out.println("Hello world!");
         Person p = new Person();
         p.hello();
-        int age = 19;
+        /*int age = 19;
         Integer age2 = 19;
         char c = 't';
         Character c2 = 't';
@@ -14,7 +14,10 @@ public class Hello {
         float weight = 66.5f;
         float height = 1.7f;
         boolean adult = true;
-        String name = "test";
+        String name = "test";*/
 
+        p.weight = 66.5f;
+        p.height = 1.7f;
+        System.out.println(p.bmi());
     }
 }
