@@ -20,6 +20,5 @@ public class Hello {
 //        p.height = 1.7f;
         System.out.println(p.bmi());
 
-
     }
 }
