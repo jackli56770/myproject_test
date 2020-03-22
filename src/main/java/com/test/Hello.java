@@ -3,7 +3,7 @@ package com.test;
 public class Hello {
     public static void main(String[] args) {
 //       System.out.println("Hello world!");
-        Person p = new Person();
+        Person p = new Person("test",66.5f, 1.7f);
         p.hello();
         /*int age = 19;
         Integer age2 = 19;
@@ -16,8 +16,10 @@ public class Hello {
         boolean adult = true;
         String name = "test";*/
 
-        p.weight = 66.5f;
-        p.height = 1.7f;
+//        p.weight = 66.5f;
+//        p.height = 1.7f;
         System.out.println(p.bmi());
+
+
     }
 }
