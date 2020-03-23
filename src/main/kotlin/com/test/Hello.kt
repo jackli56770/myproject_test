@@ -14,10 +14,11 @@ fun main() {
     */
     println(h.bmi());
 
-    val score = 88;
-    if (score  == 80)
-        print("");
-        print("");
+    var s:String? = null;
+    println(s?.length);
+    println(s?.substring(3));
+    println(s?.get(3));
+//    println(s!!.length);//兩個驚嘆號代表要自己處理exception
 }
 
 //kt 分主要建構子與次要建構子
